@@ -20,7 +20,11 @@ development:
 test:
   prepared_statements: false
   adapter: postgresql
+<<<<<<< HEAD
   database: discourse_test<%= ENV['MULTISITE'] ? "_#{ENV['MULTISITE']}" : '' %>
+=======
+  database: discourse_test
+>>>>>>> 9e361d20ff55ec83560f5376507ebd71bc5c4649
   min_messages: warning
   pool: 5
   timeout: 5000
